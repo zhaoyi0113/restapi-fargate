@@ -1,7 +1,7 @@
 FROM python
 RUN pip install pipenv
 
-EXPOSE 5000
+EXPOSE 80
 
 ADD . /develop
 WORKDIR /develop
